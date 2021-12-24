@@ -9,3 +9,5 @@ git add -A // Также после изменений применяем эту
 git remote add origin https://github.com/loomber/project.git Подключаемся к нашему репозиторию на github.com
 git branch -M main // Переименовываем главную ветку master на main по новым правилам
 git push -u origin main // Выполняем push на сервис github.com
+
+git clone https://github.com/loomber/project.git //Скачиваем проект с github можно указать путь project_2 куда скачать
