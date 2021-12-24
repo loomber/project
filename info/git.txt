@@ -11,3 +11,4 @@ git branch -M main // Переименовываем главную ветку m
 git push -u origin main // Выполняем push на сервис github.com
 
 git clone https://github.com/loomber/project.git //Скачиваем проект с github можно указать путь project_2 куда скачать
+git pull // Получит обновления с репозитория
