@@ -1,0 +1,10 @@
+git init // Инициализировать проект
+git status // Показывает что отслеживает сейчас 
+git config --local user.name "Kirill" // Устанавливаем локально автора можно установить глобально заменив на --global
+git config --local user.name examle#gmail.com // Устанавливаем локально email автора можно установить глобально заменив на --global
+git add -A // Добавляем какие файлы нужно отслеживать -А значит все 
+git add file.js // Можно добавить отслеживание конкретного файла
+git add -A // Также после изменений применяем эту команду на сохранения изменений
+git remote add origin https://github.com/loomber/project.git Подключаемся к нашему репозиторию на github.com
+git branch -M main // Переименовываем главную ветку master на main по новым правилам
+git push -u origin main // Выполняем push на сервис github.com 
